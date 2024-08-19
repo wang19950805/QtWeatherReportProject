@@ -1,0 +1,23 @@
+﻿[
+   {
+       "id":1,
+       "pid":0,
+       "city_code":"101010100",
+       "city_name":"北京",
+       "post_code":"100000",
+       "area_code":"010",
+       "ctime":"2024-08-15"
+
+    } ,
+    {
+        "id":1,
+        "pid":0,
+        "city_code":"101010100",
+        "city_name":"北京",
+        "post_code":"100000",
+        "area_code":"010",
+        "ctime":"2024-08-15"
+
+     }
+
+]

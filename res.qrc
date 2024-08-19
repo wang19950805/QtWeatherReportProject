@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/duoyun.png</file>
+        <file>res/kongqizhiliang.png</file>
+        <file>res/tianqi.png</file>
+        <file>res/wendu.png</file>
+        <file>res/fengxiang.png</file>
+        <file>res/PM2.5.png</file>
+        <file>res/search.png</file>
+    </qresource>
+</RCC>

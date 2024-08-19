@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>citycode.josn</file>
+    </qresource>
+</RCC>
