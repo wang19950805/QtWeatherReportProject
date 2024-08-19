@@ -40,5 +40,34 @@
     //遍历QJsonArray,其中的元素类型为QJsonValue
     for(QJsonValue value : jsonArr){
        ...;
-    }
+    }  
+
     
+  事件过滤器
+  
+    //为需要响应的控件或子控件安装事件
+    ui->label_search->installEventFilter(this);
+    //重写eventFilter方法,在此函数中可以对控件进行过滤,筛选出需要响应的控件进行操作
+    //同样的也可以对Qevent事件进行过滤,判断出对各种类型的事件进行响应
+    bool eventFilter(QObject *wacth,QEvent *event) override;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
