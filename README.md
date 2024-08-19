@@ -1,4 +1,6 @@
 发送HTTP请求获取全国各地的天气数据,实现一个查询并显示天气数据的客户端程序    
+
+
 ![image](https://github.com/wang19950805/QtWeatherReportProject/blob/master/preview.png)
 
   http请求  
