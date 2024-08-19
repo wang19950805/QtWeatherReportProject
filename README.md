@@ -47,15 +47,27 @@
   
     //为需要响应的控件或子控件安装事件
     ui->label_search->installEventFilter(this);
+    
     //重写eventFilter方法,在此函数中可以对控件进行过滤,筛选出需要响应的控件进行操作
     //同样的也可以对Qevent事件进行过滤,判断出对各种类型的事件进行响应
     bool eventFilter(QObject *wacth,QEvent *event) override;
     
+  styleeheet样式 
+  
+       //设置边框弧度
+       border-radius: 10px;
+       //设置某方向上的弧度
+       border-bottom-left-radius:10px;
+       border-bottom-right-radius:10px;
+       //背景颜色
+       background-color:rgba(255,255,255);
 
+      //设置图片缩放适应
+      QPixmap pixmap;
+      pixmap = pixmap.scaled(obj->size(),Qt::KeepAspectRatio,Qt::SmoothTransformation);
+![image]()
 
-
-
-
+      
 
 
 
