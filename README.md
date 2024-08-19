@@ -65,9 +65,8 @@
       //设置图片缩放适应
       QPixmap pixmap;
       pixmap = pixmap.scaled(obj->size(),Qt::KeepAspectRatio,Qt::SmoothTransformation);
-![image]()
+![image](https://github.com/wang19950805/QtWeatherReportProject/blob/master/pixmapApi.png)
 
-      
 
 
 
